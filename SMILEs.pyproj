@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4654919c-8dc0-4c4d-85b0-386d4d702d27</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SMILEs.py</StartupFile>
+    <StartupFile>APROGramm.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="APROGramm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SMILEs.py" />
